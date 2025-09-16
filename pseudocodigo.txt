@@ -1,0 +1,108 @@
+Proceso MenuDeOpciones
+    Definir opcion, subopcion Como Cadena
+
+    // Mostrar Menú Principal
+    Escribir "Menú Principal:"
+    Escribir "1. Café"
+    Escribir "2. Té"
+    Escribir "3. Agua"
+    Escribir "4. Galletas Rellenas"
+    Escribir "Elige una opción (1-4):"
+    Leer opcion
+
+    Segun opcion Hacer
+        Caso "1":
+            Escribir "Submenú Café:"
+            Escribir "1. Espresso"
+            Escribir "2. Cappuccino"
+            Escribir "3. Americano"
+            Escribir "4. Café con leche"
+            Escribir "Elige una opción (1-4):"
+            Leer subopcion
+
+            Segun subopcion Hacer
+                Caso "1":
+                    Escribir "Seleccionaste Espresso - Precio: S/8.00"
+                Caso "2":
+                    Escribir "Seleccionaste Cappuccino - Precio: S/10.00"
+                Caso "3":
+                    Escribir "Seleccionaste Americano - Precio: S/9.00"
+                Caso "4":
+                    Escribir "Seleccionaste Café con leche - Precio: S/10.00"
+                De Otro Modo:
+                    Escribir "Opción inválida"
+            FinSegun
+
+        Caso "2":
+            Escribir "Submenú Té:"
+            Escribir "1. Té verde"
+            Escribir "2. Té negro"
+            Escribir "3. Té amarillo"
+            Escribir "4. Té rojo"
+            Escribir "Elige una opción (1-4):"
+            Leer subopcion
+
+            Segun subopcion Hacer
+                Caso "1":
+                    Escribir "Seleccionaste Té verde - Precio: S/3.00"
+                Caso "2":
+                    Escribir "Seleccionaste Té negro - Precio: S/3.50"
+                Caso "3":
+                    Escribir "Seleccionaste Té amarillo - Precio: S/4.00"
+                Caso "4":
+                    Escribir "Seleccionaste Té rojo - Precio: S/4.50"
+                De Otro Modo:
+                    Escribir "Opción inválida"
+            FinSegun
+
+        Caso "3":
+            Escribir "Submenú Agua:"
+            Escribir "1. Cielo"
+            Escribir "2. San Luis"
+            Escribir "3. San Mateo"
+            Escribir "4. San Carlos"
+            Escribir "5. Loa"
+            Escribir "Elige una opción (1-5):"
+            Leer subopcion
+
+            Segun subopcion Hacer
+                Caso "1":
+                    Escribir "Seleccionaste Cielo - Precio: S/2.00"
+                Caso "2":
+                    Escribir "Seleccionaste San Luis - Precio: S/3.00"
+                Caso "3":
+                    Escribir "Seleccionaste San Mateo - Precio: S/3.50"
+                Caso "4":
+                    Escribir "Seleccionaste San Carlos - Precio: S/1.00"
+                Caso "5":
+                    Escribir "Seleccionaste Loa - Precio: S/1.00"
+                De Otro Modo:
+                    Escribir "Opción inválida"
+            FinSegun
+
+        Caso "4":
+            Escribir "Submenú Galletas Rellenas:"
+            Escribir "1. Chocolate"
+            Escribir "2. Manjar"
+            Escribir "3. Caramelo"
+            Escribir "4. Pistacho"
+            Escribir "Elige una opción (1-4):"
+            Leer subopcion
+
+            Segun subopcion Hacer
+                Caso "1":
+                    Escribir "Seleccionaste Chocolate - Precio: S/3.00"
+                Caso "2":
+                    Escribir "Seleccionaste Manjar - Precio: S/4.00"
+                Caso "3":
+                    Escribir "Seleccionaste Caramelo - Precio: S/5.00"
+                Caso "4":
+                    Escribir "Seleccionaste Pistacho - Precio: S/6.00"
+                De Otro Modo:
+                    Escribir "Opción inválida"
+            FinSegun
+
+        De Otro Modo:
+            Escribir "Opción principal inválida"
+    FinSegun
+FinProceso
