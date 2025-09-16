@@ -1,0 +1,50 @@
+Diagrama de flujo
+ 1.- Inicio
+ 2.- mostrar mensaje de bienvenida 
+ 3.- Mostrar menú de categorías
+Café
+Té
+Agua
+Galletas Rellenas 
+4.- leer opción  - swtich 
+
+ caso 1 - cafe
+Mostrar submenú café
+Leer opción → cafe
+Evaluar if según opción:
+1 → Espresso
+2 → Cappuccino
+3 → Americano
+4 → Café con leche
+Si no es válida → INVALIDO
+
+caso 2 - te
+Mostrar submenú té
+Leer opción → te
+Evaluar if según opción:
+1 → Té verde
+2 → Té negro
+3 → Té amarillo
+4 → Té rojo
+Si no es válida → INVALIDO
+
+caso3 - agua
+Mostrar submenú agua
+Leer opción → water
+Evaluar if según opción:
+1 → Cielo
+2 → San Luis
+3 → San Mateo
+4 → San Carlos
+5 → Loa
+
+caso4-galletas 
+         Mostrar submenú galletas
+Leer opción → cookies
+Evaluar if según opción:
+1 → Chocolate
+2 → Manjar
+3 → Caramelo
+4 → Pistacho
+Si no es válida → INVALIDO
+5.- Fin 
